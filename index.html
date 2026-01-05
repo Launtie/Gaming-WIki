@@ -3,8 +3,9 @@
 <head>
   <title> HTML Website </title>
 </head>
+<body>
 <style>
-	body {
+body {
   font-family: verdana;
   background-color: grey;
   background-image: url("https://i.redd.it/3tniv8edhkky.jpg");
@@ -60,22 +61,25 @@ audio {
 }
 
 iframe {
-  width: 150px;  
-  height: 120px; 
-}
-
-.Trailer {
-  
+  width: 250px;  
+  height: 140px; 
 }
 
 .Soundtrack {
   width: 300px;
   height: 100px;
 }
+
+footer {
+  background: rgba(0, 0, 0, 0.85);
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  margin-top: 20px;
+}
 </style>
-<body>
   <h1> Gaming Wiki </h1>
-  <div class="Gallerie">
+   <div class="Gallerie">
     <div class="Spiel">
       <p class="Bezeichnung">War Thunder</p>
       <a href="https://wiki.warthunder.com" target="_blank" rel="noopener noreferrer">
@@ -113,7 +117,7 @@ iframe {
      </iframe>
    </div>
    <div class="Spiel">
-     <p class="Bezeichnung">Sotf</p>
+     <p class="Bezeichnung">Sons of the Forest</p>
      <a href="https://sonsoftheforest.fandom.com/wiki/Sons_of_the_Forest_Wiki"target="_blank" rel="noopener noreferrer">
        <img class="SpielBild" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Sons_of_the_Forest.jpg/250px-Sons_of_the_Forest.jpg" alt="Sons of the forest">
      </a>
@@ -138,64 +142,64 @@ iframe {
    </div>
    <div class="Spiel">
      <p class="Bezeichnung">Minecraft</p>
-     <a href="" target="_blank" rel="noopener noreferrer">
-       <img class="SpielBild" src="" alt="">
+     <a href="https://de.minecraft.wiki" target="_blank" rel="noopener noreferrer">
+       <img class="SpielBild" src="https://i.redd.it/t418jv39ww751.png" alt="Minecraft">
      </a>
      <p class="Bezeichnung">Trailer</p>
-     <iframe>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/MmB9b5njVbA?si=qDBZjpk7h7dKivvU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>>
      </iframe>
      <p class="Bezeichnung">Soundtrack</p>
-     <iframe class="Soundtrack">
+     <iframe class="Soundtrack" data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/4K0odcECsBvgzv9Lr9z4kd?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">>
      </iframe>
    </div>
    <div class="Spiel">
      <p class="Bezeichnung">Warframe</p>
-     <a href="" target="_blank" rel="noopener noreferrer">
-       <img class="SpielBild" src="" alt="">
+     <a href="https://wiki.warframe.com" target="_blank" rel="noopener noreferrer">
+       <img class="SpielBild" src="https://cdn.displate.com/artwork/857x1200/2024-11-09/e360f0d8-5993-4702-8147-d15643269036.jpg" alt="Warframe">
      </a>
      <p class="Bezeichnung">Trailer</p>
-     <iframe>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/MsbL8lFHrZI?si=SAL2Y_CCiuFzYUlR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
      </iframe>
      <p class="Bezeichnung">Soundtrack</p>
-     <iframe class="Soundtrack">
+     <iframe class="Soundtrack" data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/28MPoZpCkBPHL4G7lZ29To?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
      </iframe>
    </div>
    <div class="Spiel">
-     <p class="Bezeichnung">CoH2</p>
-     <a href="" target="_blank" rel="noopener noreferrer">
-       <img class="SpielBild" src="" alt="">
+     <p class="Bezeichnung">Company of heroes 2</p>
+     <a href="https://companyofheroes.fandom.com/wiki/Company_of_Heroes_2" target="_blank" rel="noopener noreferrer">
+       <img class="SpielBild" src="https://images.g2a.com/470x276/1x1x0/company-of-heroes-2-platinum-edition-steam-key-global-i10000013365002/5912597bae653a9a9b4c43de" alt="CoH2">
      </a>
      <p class="Bezeichnung">Trailer</p>
-     <iframe>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/cUdezMxCY9s?si=GJNVfewYsl_zXULW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
      </iframe>
      <p class="Bezeichnung">Soundtrack</p>
-     <iframe class="Soundtrack">
+     <iframe class="Soundtrack" data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/1j5laMKp6z7LSmH0XoIeRd?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">>
      </iframe>
    </div>
    <div class="Spiel">
-     <p class="Bezeichnung">HoI4</p>
-     <a href="" target="_blank" rel="noopener noreferrer">
-       <img class="SpielBild" src="" alt="">
+     <p class="Bezeichnung">Hearts of Iron 4</p>
+     <a href="https://hoi4.paradoxwikis.com/Hearts_of_Iron_4_Wiki" target="_blank" rel="noopener noreferrer">
+       <img class="SpielBild" src="https://upload.wikimedia.org/wikipedia/en/b/b3/Hearts_of_Iron_IV_packshot.jpg" alt="HoI4">
      </a>
      <p class="Bezeichnung">Trailer</p>
-     <iframe>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/X35yPqws-vk?si=2bS-sh11jAlmOqAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
      </iframe>
      <p class="Bezeichnung">Soundtrack</p>
-     <iframe class="Soundtrack">
+     <iframe class="Soundtrack"data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2HAioTmNZPwEHR8nT0tvi9?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">>
      </iframe>
    </div>
    <div class="Spiel">
      <p class="Bezeichnung">SCP Containment Breach</p>
-     <a href="" target="_blank" rel="noopener noreferrer">
-       <img class="SpielBild" src="" alt="">
+     <a href="https://scp-wiki.wikidot.com" target="_blank" rel="noopener noreferrer">
+       <img class="SpielBild" src="https://ih1.redbubble.net/image.3476311115.7525/flat,750x,075,f-pad,750x1000,f8f8f8.jpg" alt="SCP">
      </a>
      <p class="Bezeichnung">Trailer</p>
-     <iframe>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/DpmE5Wy7YMU?si=1tTiw65ZrqBG3Ugj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
      </iframe>
-     <p class="Bezeichnung">Soundtrack</p>
-     <iframe class="Soundtrack">
-     </iframe>
-   </div>
+    </div>
   </div>
+  <footer>
+    © 2026 Gaming Wiki
+  </footer>
 </body>
 </html>
